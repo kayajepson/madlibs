@@ -210,7 +210,27 @@ namespace Madlib.Models
     {
       _pluralNounFour = newPluralNounFour;
     }
+}
+    public class MadlibVariableTwo
+    {
+      private string _bodypartML2;
+      private string _activityML2;
+      private string _foodML2;
+      private string _nounML2;
+      private string _placeML2;
+      private string _nameML2;
 
+      public string BodyPartML2 { get => _bodypartML2; set => _bodypartML2 = value; }
+
+      public string ActivityML2 { get => _activityML2; set => _activityML2 = value; }
+
+      public string FoodML2 { get => _foodML2; set => _foodML2 = value; }
+
+      public string NounML2 { get => _nounML2; set => _nounML2 = value; }
+
+      public string PlaceML2 { get => _placeML2; set => _placeML2 = value; }
+
+      public string NameML2 { get => _nameML2; set => _nameML2 = value; }
 
 
 

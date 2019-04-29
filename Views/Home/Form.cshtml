@@ -4,67 +4,72 @@
     <meta charset='utf-8'>
     <title>Create a Custom Madlib!</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    @* <link href="@Url.Content("~/css/styles.css")" rel="stylesheet" type="text/css" /> *@
+
+    <link href="~/css/site.css" rel="stylesheet" type="text/css" />
+
   </head>
   <body>
     <h1>Fill in the blanks to create your custom Madlib!</h1>
     <form action="/madLibOne" method="post">
      <label for="adjectiveOne">ADJECTIVE</label>
-     <input id="adjectiveOne" name="adjectiveOne" type="text">
+     <input id="adjectiveOne" name="adjectiveOne" type="text"><br>
 
      <label for="adjectiveTwo">ADJECTIVE</label>
-     <input id="adjectiveTwo" name="adjectiveTwo" type="text">
+     <input id="adjectiveTwo" name="adjectiveTwo" type="text"><br>
 
      <label for="nounOne">NOUN</label>
-     <input id="nounOne" name="nounOne" type="text">
+     <input id="nounOne" name="nounOne" type="text"><br>
 
      <label for="nounTwo">NOUN</label>
-     <input id="nounTwo" name="nounTwo" type="text">
+     <input id="nounTwo" name="nounTwo" type="text"><br>
 
      <label for="pluralNounOne">PLURAL NOUN</label>
-     <input id="pluralNounOne" name="pluralNounOne" type="text">
+     <input id="pluralNounOne" name="pluralNounOne" type="text"><br>
 
      <label for="gameOne">GAME</label>
-     <input id="gameOne" name="gameOne" type="text">
+     <input id="gameOne" name="gameOne" type="text"><br>
 
      <label for="pluralNounTwo">PLURAL NOUN</label>
-     <input id="pluralNounTwo" name="pluralNounTwo" type="text">
+     <input id="pluralNounTwo" name="pluralNounTwo" type="text"><br>
 
      <label for="verbIngOne">VERB ENDING IN "ING"</label>
-     <input id="verbIngOne" name="verbIngOne" type="text">
+     <input id="verbIngOne" name="verbIngOne" type="text"><br>
 
      <label for="verbIngTwo">VERB ENDING IN "ING"</label>
-     <input id="verbIngTwo" name="verbIngTwo" type="text">
+     <input id="verbIngTwo" name="verbIngTwo" type="text"><br>
 
      <label for="pluralNounThree">PLURAL NOUN</label>
-     <input id="pluralNounThree" name="pluralNounThree" type="text">
+     <input id="pluralNounThree" name="pluralNounThree" type="text"><br>
 
      <label for="verbIngThree">VERB ENDING IN "ING"</label>
-     <input id="verbIngThree" name="verbIngThree" type="text">
+     <input id="verbIngThree" name="verbIngThree" type="text"><br>
 
      <label for="nounThree">NOUN</label>
-     <input id="nounThree" name="nounThree" type="text">
+     <input id="nounThree" name="nounThree" type="text"><br>
 
      <label for="plantOne">PLANT</label>
-     <input id="plantOne" name="plantOne" type="text">
+     <input id="plantOne" name="plantOne" type="text"><br>
 
      <label for="bodyPart">BODY PART</label>
-     <input id="bodyPart" name="bodyPart" type="text">
+     <input id="bodyPart" name="bodyPart" type="text"><br>
 
      <label for="placeOne">PLACE</label>
-     <input id="placeOne" name="placeOne" type="text">
+     <input id="placeOne" name="placeOne" type="text"><br>
 
      <label for="verbIngFour">VERB ENDING IN "ING"</label>
-     <input id="verbIngFour" name="verbIngFour" type="text">
+     <input id="verbIngFour" name="verbIngFour" type="text"><br>
 
      <label for="adjectiveThree">ADJECTIVE</label>
-     <input id="adjectiveThree" name="adjectiveThree" type="text">
+     <input id="adjectiveThree" name="adjectiveThree" type="text"><br>
 
      <label for="numberOne">NUMBER</label>
-     <input id="numberOne" name="numberOne" type="text">
+     <input id="numberOne" name="numberOne" type="text"><br>
 
      <label for="pluralNounFour">PLURAL NOUN</label>
-     <input id="pluralNounFour" name="pluralNounFour" type="text">
+     <input id="pluralNounFour" name="pluralNounFour" type="text"><br>
      <button type="submit">Go!</button>
     </form>
+    @* @RenderSection("Scripts", required: false) *@
   </body>
 </html>
